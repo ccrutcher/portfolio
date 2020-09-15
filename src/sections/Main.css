@@ -1,0 +1,27 @@
+.main-section {
+  height: 100vh;
+  background-image: url('../imgs/photo-1534298261662-f8fdd25317db.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+.main-content {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.links {
+  position: absolute;
+  margin: 0;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.link {
+  padding: 40px;
+}
