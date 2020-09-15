@@ -8,7 +8,7 @@ export class Main extends Component {
     return (
       <div className='main-section' id='main'>
         <div className='main-content'>
-          <h4>Cole Crutcher</h4>
+          <div className='my-name'>Cole Crutcher</div>
         </div>
         <div className='links'>
           <Link
@@ -20,7 +20,10 @@ export class Main extends Component {
             offset={0}
             duration={500}
           >
-            <button type='button'> Projects</button>
+            <button type='button' className='main-button'>
+              {' '}
+              Projects
+            </button>
           </Link>
           <Link
             className='link'
@@ -31,7 +34,9 @@ export class Main extends Component {
             offset={0}
             duration={500}
           >
-            <button type='button'>Contact Me</button>
+            <button type='button' className='main-button'>
+              Contact Me
+            </button>
           </Link>
         </div>
       </div>

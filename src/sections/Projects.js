@@ -6,8 +6,8 @@ export class Project extends Component {
   render() {
     return (
       <div className='project-section' id='projects'>
-        <div className='project-container'>
-          <div classname='project1'>
+        <div className='project-container project-container1'>
+          <div className='project project1'>
             <div class='game'>
               <div class='front'>
                 <img
@@ -24,6 +24,7 @@ export class Project extends Component {
               </div>
 
               <div class='back'>
+                <h3 className='name'>Project 1</h3>
                 <div class='streaming-info'>
                   <p class='game-stat'>
                     <button type='button' className='button'>
@@ -39,7 +40,10 @@ export class Project extends Component {
                 <div className='description'>
                   <p>
                     This project does stuff This project does stuff This project
-                    does stuff This project does stuff
+                    does stuff This project does stuff This project does stuff
+                    This project does stuff This project does stuff This project
+                    does stuff This project does stuff This project does stuff
+                    This project does stuff This project does stuff
                   </p>
                 </div>
               </div>

@@ -17,16 +17,25 @@
 
 .project-container {
   position: relative;
-  margin: 0;
   top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 75%;
-  border: 2px solid yellow;
+  transform: translate(-50%, -30%);
+  display: flex;
+  flex-wrap: no-wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  max-height: 80%;
 }
 
-.project1 {
-  position: absolute;
+.project-container2 {
+  margin-top: 60px;
+}
+
+.project {
+  max-width: 400px;
+  display: flex;
+  margin: 20px;
 }
 
 h1,
@@ -42,15 +51,15 @@ img {
 
 .game {
   position: relative;
-  width: 12.5vw;
-  cursor: pointer;
+  max-width: 100%;
   background-color: #9a8c98;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .front {
   -webkit-transition: 250ms;
   transition: 250ms;
+  margin: 10px;
 }
 
 .front .thumbnail {
@@ -95,24 +104,26 @@ img {
 }
 
 .description {
-  border: 2px solid white;
-  transform: translatey(-20%);
+  margin-left: 10px;
+  margin-right: 10px;
+  transform: translatey(-25%);
 }
 
 .back .streaming-info {
+  transform: translatey(-20px);
+  display: block;
   -webkit-columns: 2;
   columns: 2;
   -webkit-column-rule: 1px solid rgba(255, 255, 255, 0.25);
   column-rule: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-.back .game-stat {
-  font-size: 1.125rem;
-  text-align: center;
-}
-
 .back .game-stat span {
   font-size: 0.9rem;
+  display: block;
+}
+
+.back .name {
   display: block;
 }
 
@@ -139,9 +150,7 @@ img {
 }
 
 .game:hover .front .name {
-  -webkit-animation: gameName 250ms forwards;
-  animation: gameName 250ms forwards;
-  margin-top: 0;
+  opacity: 0;
 }
 
 .game:hover .front .stats {
@@ -157,13 +166,6 @@ img {
     -webkit-transform 400ms ease;
   -webkit-transform: translateY(0);
   transform: translateY(0);
-}
-
-.game:hover .back .streamers {
-  width: 100%;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
 }
 
 .game:hover .back .name {
