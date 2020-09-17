@@ -7,37 +7,54 @@ export class Main extends Component {
   render() {
     return (
       <div className='main-section' id='main'>
-        <div className='main-content'>
-          <div className='my-name'>Cole Crutcher</div>
-        </div>
-        <div className='links'>
-          <Link
-            className='link'
-            activeClass='active'
-            to='projects'
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            <button type='button' className='main-button'>
-              {' '}
-              Projects
-            </button>
-          </Link>
-          <Link
-            className='link'
-            activeClass='active'
-            to='contact'
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            <button type='button' className='main-button'>
-              Contact Me
-            </button>
-          </Link>
+        <div className='main-container'>
+          <div className='main-content'>
+            <div className='my-name'>Cole Crutcher</div>
+          </div>
+          <div className='links'>
+            <a
+              className='outside-link'
+              href='http://github.com/ccrutcher'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <i className='fab fa-github-square fa-5x'></i>
+            </a>
+            <Link
+              className='link'
+              activeClass='active'
+              to='projects'
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              <button type='button' className='main-button'>
+                Projects
+              </button>
+            </Link>
+            <Link
+              className='link'
+              activeClass='active'
+              to='contact'
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              <button type='button' className='main-button'>
+                Contact Me
+              </button>
+            </Link>
+            <a
+              className='outside-link'
+              href='http://linkedin.com'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <i className='fab fa-linkedin fa-5x'></i>
+            </a>
+          </div>
         </div>
       </div>
     );

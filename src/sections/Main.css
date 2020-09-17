@@ -6,7 +6,30 @@
   background-position-y: bottom;
 }
 
+.fa-github-square {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
 .main-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.my-name {
+  width: fit-content;
+  font-family: Bookman;
+  font-size: 80px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   margin: 0;
   top: 50%;
@@ -15,19 +38,18 @@
 }
 
 .links {
-  position: absolute;
-  margin: 0;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
 }
 
 .link {
-  padding: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
 }
 
-.my-name {
-  font-size: 50px;
+.outside-link {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .main-button {

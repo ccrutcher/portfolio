@@ -8,30 +8,30 @@ export class Project extends Component {
       <div className='project-section' id='projects'>
         <div className='project-container project-container1'>
           <div className='project project1'>
-            <div class='game'>
-              <div class='front'>
+            <div className='game'>
+              <div className='front'>
                 <img
-                  class='thumbnail'
+                  className='thumbnail'
                   src={require('../imgs/photo-1534298261662-f8fdd25317db.jpg')}
                   alt='Gwent'
                 />
-                <h3 class='name'>Project 1</h3>
-                <div class='stats'>
-                  <p class='madewith'>
+                <h3 className='name'>Project 1</h3>
+                <div className='stats'>
+                  <p className='madewith'>
                     Made with: React, JavaScript, HTML, CSS
                   </p>
                 </div>
               </div>
 
-              <div class='back'>
+              <div className='back'>
                 <h3 className='name'>Project 1</h3>
-                <div class='streaming-info'>
-                  <p class='game-stat'>
+                <div className='streaming-info'>
+                  <p className='game-stat'>
                     <button type='button' className='button'>
                       Github
                     </button>
                   </p>
-                  <p class='game-stat'>
+                  <p className='game-stat'>
                     <button type='button' className='button'>
                       Github
                     </button>
@@ -47,7 +47,7 @@ export class Project extends Component {
                   </p>
                 </div>
               </div>
-              <div class='background'></div>
+              <div className='background'></div>
             </div>
           </div>
         </div>
