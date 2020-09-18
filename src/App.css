@@ -13,10 +13,8 @@
 .nav-link {
   background-color: #4a4e69;
   font-size: 30px;
-  margin: 10px;
   margin-bottom: 40px;
-  padding: 5px;
-  border: 2px solid white;
+  border: 2px solid #2a2c3b;
   border-radius: 5px;
   cursor: pointer;
 }
