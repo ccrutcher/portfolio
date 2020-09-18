@@ -25,6 +25,7 @@
   width: fit-content;
   font-family: Bookman;
   font-size: 80px;
+  font-weight: bold;
 }
 
 .main-container {
@@ -32,24 +33,27 @@
   flex-direction: column;
   position: absolute;
   margin: 0;
-  top: 50%;
+  top: 55%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -55%);
 }
 
 .links {
   display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .link {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 45px;
+  margin-right: 45px;
   margin-top: 10px;
 }
 
 .outside-link {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 45px;
+  margin-right: 45px;
 }
 
 .main-button {
