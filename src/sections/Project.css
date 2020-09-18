@@ -26,10 +26,8 @@
   align-content: center;
   justify-content: space-around;
   max-height: 80%;
-}
-
-.project-container2 {
-  margin-top: 60px;
+  margin-bottom: 100px;
+  width: 80%;
 }
 
 .project {
@@ -109,7 +107,7 @@ img {
   transform: translatey(-25%);
 }
 
-.back .streaming-info {
+.back .project-links {
   transform: translatey(-20px);
   display: block;
   -webkit-columns: 2;
@@ -118,7 +116,7 @@ img {
   column-rule: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-.back .game-stat span {
+.back .project-link span {
   font-size: 0.9rem;
   display: block;
 }
