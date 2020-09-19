@@ -1,0 +1,24 @@
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  border: 2px solid white;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-outside-link {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.contact-outside-link .fa-github-square {
+  color: #9a8c98;
+}
+
+.contact-outside-link .fa-linkedin {
+  color: #9a8c98;
+}
