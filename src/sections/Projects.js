@@ -37,14 +37,17 @@ export class Project extends Component {
                     </button>
                   </p>
                 </div>
-                <div className='description'>
-                  <p>
-                    This project does stuff This project does stuff This project
-                    does stuff This project does stuff This project does stuff
-                    This project does stuff This project does stuff This project
-                    does stuff This project does stuff This project does stuff
-                    This project does stuff This project does stuff
-                  </p>
+                <div className='description-container'>
+                  <div className='description'>
+                    <p>
+                      This project does stuff This project does stuff This
+                      project does stuff This project does stuff This project
+                      does stuff This project does stuff This project does stuff
+                      This project does stuff This project does stuff This
+                      project does stuff This project does stuff This project
+                      does stuff
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className='background'></div>

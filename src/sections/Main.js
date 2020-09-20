@@ -48,7 +48,7 @@ export class Main extends Component {
             </Link>
             <a
               className='outside-link'
-              href='http://linkedin.com'
+              href='https://www.linkedin.com/in/cole-crutcher-4333a0105'
               target='_blank'
               rel='noopener noreferrer'
             >
