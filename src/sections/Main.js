@@ -33,6 +33,15 @@ export class Main extends Component {
                 Projects
               </button>
             </Link>
+            <div className='link'>
+              <a
+                href='https://pdfhost.io/v/PLLMi0k1z_dummypdf.pdf'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <button className='contact-button'>Resumé</button>
+              </a>
+            </div>
             <Link
               className='link'
               activeClass='active'
@@ -43,7 +52,7 @@ export class Main extends Component {
               duration={500}
             >
               <button type='button' className='main-button'>
-                Contact Me
+                Contact
               </button>
             </Link>
             <a

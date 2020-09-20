@@ -9,6 +9,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-github-button": "^0.1.11",
+    "react-mailto": "^0.4.0",
     "react-pdf": "^5.0.0",
     "react-scripts": "1.1.1",
     "react-scroll": "^1.8.1"
