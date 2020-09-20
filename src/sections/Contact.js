@@ -18,7 +18,7 @@ export class Contact extends Component {
             </a>
             <a
               className='contact-outside-link'
-              href='http://linkedin.com'
+              href='https://www.linkedin.com/in/cole-crutcher-4333a0105'
               target='_blank'
               rel='noopener noreferrer'
             >
