@@ -44,17 +44,18 @@
   border-radius: 8px;
   padding-top: 10px;
   padding-bottom: 10px;
+  max-width: 100%;
 }
 
 .link {
-  margin-left: 45px;
-  margin-right: 45px;
-  margin-top: 10px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 1vw;
 }
 
 .outside-link {
-  margin-left: 45px;
-  margin-right: 45px;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 .main-button {
