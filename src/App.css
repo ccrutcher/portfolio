@@ -11,17 +11,18 @@ body {
   color: #c9ada7;
   padding: 10px;
   z-index: 9;
-  width: 10vw;
+  width: 10em;
+  line-height: 2.5em;
   font-family: Bookman;
 }
 
 .nav-link {
   background-color: #4a4e69;
-  font-size: 30px;
   margin-bottom: 40px;
   border: 2px solid #2a2c3b;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 30px;
 }
 
 .project-section {
@@ -30,6 +31,6 @@ body {
 }
 
 .contact-section {
-  height: 50vh;
+  height: 60vh;
   background-color: #22223b;
 }
