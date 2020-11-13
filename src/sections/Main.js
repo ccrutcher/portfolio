@@ -29,7 +29,7 @@ export class Main extends Component {
               offset={0}
               duration={500}
             >
-              <button type='button' className='main-button'>
+              <button className='main-button'>
                 Projects
               </button>
             </Link>
@@ -39,7 +39,7 @@ export class Main extends Component {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <button className='contact-button'>Resumé</button>
+                <button className='main-button'>Resumé</button>
               </a>
             </div>
             <Link
@@ -51,7 +51,7 @@ export class Main extends Component {
               offset={0}
               duration={500}
             >
-              <button type='button' className='main-button'>
+              <button className='main-button'>
                 Contact
               </button>
             </Link>

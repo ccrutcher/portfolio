@@ -22,10 +22,6 @@ body {
   font-family: Bookman;
 }
 
-.main-section {
-  border: 2px solid red;
-}
-
 .nav-link {
   background-color: #4a4e69;
   margin-bottom: 40px;
@@ -40,7 +36,6 @@ body {
   background-color: #22223b;
   display: flexbox;
   flex-shrink: 0;
-  border: 2px solid blue;
 }
 
 .contact-section {
