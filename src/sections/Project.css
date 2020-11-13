@@ -17,22 +17,22 @@
 
 .project-container {
   position: relative;
-  top: 10%;
   left: 50%;
-  transform: translate(-50%, -10%);
+  top: 10vh;
+  transform: translate(-50%, 0);
   display: flex;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
   align-items: center;
   align-content: center;
   justify-content: space-around;
-  max-height: 80%;
-  margin-bottom: 100px;
+  margin: em 0;
   width: 80%;
   font-family: Bookman;
+  border: 2px solid red;
 }
 
 .project {
-  width: 400px;
+  min-width: 20vw;
   display: flex;
   margin: 20px;
 }

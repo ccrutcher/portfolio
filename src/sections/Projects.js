@@ -12,7 +12,7 @@ export class Project extends Component {
               <div className='front'>
                 <img
                   className='thumbnail'
-                  src={require('../imgs/chat-app-image.jpg')}
+                  src={require('../imgs/chat-image.JPG')}
                   alt=''
                 />
                 <h3 className='name'>Chat App</h3>
@@ -67,7 +67,7 @@ export class Project extends Component {
               <div className='front'>
                 <img
                   className='thumbnail'
-                  src={require('../imgs/pomodoro-image.jpeg')}
+                  src={require('../imgs/pomodoro-image.JPG')}
                   alt=''
                 />
                 <h3 className='name'>Pomodoro Study Timer</h3>
@@ -117,14 +117,13 @@ export class Project extends Component {
               <div className='background'></div>
             </div>
           </div>
-        </div>
-        <div className='project-container container-2'>
+
         <div className='project project3'>
             <div className='game'>
               <div className='front'>
                 <img
                   className='thumbnail'
-                  src={require('../imgs/music-player-image.jpg')}
+                  src={require('../imgs/music-image.JPG')}
                   alt=''
                 />
                 <h3 className='name'>Music Player</h3>
@@ -179,7 +178,7 @@ export class Project extends Component {
               <div className='front'>
                 <img
                   className='thumbnail'
-                  src={require('../imgs/password-generator-image.jpg')}
+                  src={require('../imgs/password-image.JPG')}
                   alt=''
                 />
                 <h3 className='name'>Password Generator</h3>
@@ -234,7 +233,7 @@ export class Project extends Component {
               <div className='front'>
                 <img
                   className='thumbnail'
-                  src={require('../imgs/word-frequency-image.jpg')}
+                  src={require('../imgs/frequency-image.JPG')}
                   alt=''
                 />
                 <h3 className='name'>Word Frequency Finder</h3>
@@ -285,7 +284,7 @@ export class Project extends Component {
             </div>
           </div>
         </div>
-      </div>
+        </div>
     );
   }
 }

@@ -2,6 +2,12 @@ body {
   background-color: #22223b;
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
 .navbar {
   position: fixed;
   display: flex;
@@ -16,6 +22,10 @@ body {
   font-family: Bookman;
 }
 
+.main-section {
+  border: 2px solid red;
+}
+
 .nav-link {
   background-color: #4a4e69;
   margin-bottom: 40px;
@@ -26,11 +36,14 @@ body {
 }
 
 .project-section {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #22223b;
+  display: flexbox;
+  flex-shrink: 0;
+  border: 2px solid blue;
 }
 
 .contact-section {
-  height: 60vh;
+  min-height: 60vh;
   background-color: #22223b;
 }
