@@ -1,67 +1,29 @@
-import React, { Component } from 'react';
-import './Project.css';
+import React from 'react'
+import './Projects.css'
+import Project from './Project/Project.js'
 
-export class Project extends Component {
-  state = {};
-  render() {
-    return (
-      <div className='project-section' id='projects'>
+import img1 from '../imgs/image1.JPG';
+
+
+export default function Projects() {
+  return (
+      <div className='projects'>
+        <Project img={img1} name="Chat App" madeWith={"Made with: React, JavaScript, HTML5, CSS"} githubLink={"https://github.com/ccrutcher/chat-app"} demoLink={""} description={"This is a chat app that uses a Firebase realtime database to store and fetch message data. Users can either send and read messages as a guest, or sign in using a Google account. Users may select an existing room to join, or create a new room. All users can currently enter, create, and delete any room. Once a room has been selected, messages appear in sequential order and display a timestamp of when the message was sent."}></Project>
+        <Project img={img1} name="Chat App" madeWith={"Made with: React, JavaScript, HTML5, CSS"} githubLink={"https://github.com/ccrutcher/chat-app"} demoLink={""} description={"This is a chat app that uses a Firebase realtime database to store and fetch message data. Users can either send and read messages as a guest, or sign in using a Google account. Users may select an existing room to join, or create a new room. All users can currently enter, create, and delete any room. Once a room has been selected, messages appear in sequential order and display a timestamp of when the message was sent."}></Project>
+        <Project img={img1} name="Chat App" madeWith={"Made with: React, JavaScript, HTML5, CSS"} githubLink={"https://github.com/ccrutcher/chat-app"} demoLink={""} description={"This is a chat app that uses a Firebase realtime database to store and fetch message data. Users can either send and read messages as a guest, or sign in using a Google account. Users may select an existing room to join, or create a new room. All users can currently enter, create, and delete any room. Once a room has been selected, messages appear in sequential order and display a timestamp of when the message was sent."}></Project>
+        <Project img={img1} name="Chat App" madeWith={"Made with: React, JavaScript, HTML5, CSS"} githubLink={"https://github.com/ccrutcher/chat-app"} demoLink={""} description={"This is a chat app that uses a Firebase realtime database to store and fetch message data. Users can either send and read messages as a guest, or sign in using a Google account. Users may select an existing room to join, or create a new room. All users can currently enter, create, and delete any room. Once a room has been selected, messages appear in sequential order and display a timestamp of when the message was sent."}></Project>
+        <Project img={img1} name="Chat App" madeWith={"Made with: React, JavaScript, HTML5, CSS"} githubLink={"https://github.com/ccrutcher/chat-app"} demoLink={""} description={"This is a chat app that uses a Firebase realtime database to store and fetch message data. Users can either send and read messages as a guest, or sign in using a Google account. Users may select an existing room to join, or create a new room. All users can currently enter, create, and delete any room. Once a room has been selected, messages appear in sequential order and display a timestamp of when the message was sent."}></Project>
+      </div>
+  )
+}
+
+
+
+/*
+          img="require('../imgs/chat-image.JPG')" name="Chat App" madeWith={"Made with: React, JavaScript, HTML5, CSS"} githubLink={"https://github.com/ccrutcher/chat-app"} demoLink={""} description={"This is a chat app that uses a Firebase realtime database to store and fetch message data. Users can either send and read messages as a guest, or sign in using a Google account. Users may select an existing room to join, or create a new room. All users can currently enter, create, and delete any room. Once a room has been selected, messages appear in sequential order and display a timestamp of when the message was sent."}
+
+
         <div className='project-container container-1'>
-          <div className='project project1'>
-            <div className='game'>
-              <div className='front'>
-                <img
-                  className='thumbnail'
-                  src={require('../imgs/chat-image.JPG')}
-                  alt=''
-                />
-                <h3 className='name'>Chat App</h3>
-                <div className='stats'>
-                  <p className='madewith'>
-                    Made with: React, JavaScript, HTML5, CSS
-                  </p>
-                </div>
-              </div>
-
-              <div className='back'>
-                <h3 className='name'>Chat App</h3>
-                <div className='project-links'>
-                  <div className='project-link'>
-                    <a
-                      //PUT PROJECT GITHUB LINK
-                      href='https://github.com/ccrutcher/chat-app'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      <button type='button' className='project-github-button'>
-                        Github
-                      </button>
-                    </a>
-                  </div>
-                  <div className='project-link'>
-                    <a
-                      //PUT PROJECT DEMO LINK
-                      href=''
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      <button type='button' className='project-demo-button'>
-                        Demo
-                      </button>
-                    </a>
-                  </div>
-                </div>
-                <div className='description-container'>
-                  <div className='description'>
-                    <p>
-                    This is a chat app that uses a Firebase realtime database to store and fetch message data. Users can either send and read messages as a guest, or sign in using a Google account. Users may select an existing room to join, or create a new room. All users can currently enter, create, and delete any room. Once a room has been selected, messages appear in sequential order and display a timestamp of when the message was sent.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className='background'></div>
-            </div>
-          </div>
           <div className='project project2'>
             <div className='game'>
               <div className='front'>
@@ -284,9 +246,4 @@ export class Project extends Component {
             </div>
           </div>
         </div>
-        </div>
-    );
-  }
-}
-
-export default Project;
+*/
