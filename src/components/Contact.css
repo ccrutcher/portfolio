@@ -1,14 +1,16 @@
 .contact-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  margin-top: 10vh;
 }
 
-.contact-container {
-  width: fit-content;
-  height: fit-content;
+.contact-contents{
   display: flex;
   flex-direction: column;
-  transform: translateY(85%);
+  align-items: center;
+  margin-top: 2.5vh;
+  margin-bottom: 5vh;
 }
 
 .resume {
@@ -19,7 +21,8 @@
 }
 
 .email {
-  margin-top: 25px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -43,6 +46,12 @@
   background: linear-gradient(to bottom, #0c1112 5%, #294752 100%);
   background-color: #0c1112;
 }
+
+.contact-outside-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .contact-button:active {
   position: relative;
   top: 1px;
