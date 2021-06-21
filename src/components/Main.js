@@ -28,7 +28,7 @@ export class Main extends Component {
               </Link>
               <div className='link'>
                 <a
-                  href='https://pdfhost.io/v/PLLMi0k1z_dummypdf.pdf'
+                  href='https://pdfhost.io/v/0KAuISue1_CrutcherResumepdf.pdf'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
