@@ -42,7 +42,7 @@ export class Contact extends Component {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button className='contact-button'>Resumé</button>
+            <button className='contact-button'>Resume</button>
           </a>
         </div>
         </div>
