@@ -28,11 +28,11 @@ export class Main extends Component {
               </Link>
               <div className='link'>
                 <a
-                  href='https://pdfhost.io/v/0KAuISue1_CrutcherResumepdf.pdf'
+                  href='https://pdfhost.io/v/GAMuELE8O_CrutcherResumepdf.pdf'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button className='main-button'>Resumé</button>
+                  <button className='main-button'>Resume</button>
                 </a>
               </div>
               <Link
