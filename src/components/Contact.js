@@ -38,7 +38,7 @@ export class Contact extends Component {
 
         <div className='resume'>
           <a
-            href='https://pdfhost.io/v/GAMuELE8O_CrutcherResumepdf.pdf'
+            href='https://pdfhost.io/v/ZhAGNZ7My_Crutcher_Resumepdf.pdf'
             target='_blank'
             rel='noopener noreferrer'
           >
